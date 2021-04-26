@@ -35,14 +35,16 @@ hr {
 .Resume_main .Resume_left {
     width: 30%;
     display:grid;
-    background-color: rgb(148, 65, 224);
+    background-color:#58208b;
     color: aliceblue;
 }
 
 .Resume_main .Resume_left .Headline {
     font-size: 1.5rem;
     padding-left: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    justify-content: left;
 }
 
 
@@ -58,24 +60,19 @@ hr {
     flex-wrap: wrap;
     align-content: flex-end;
     justify-content: flex-start;
-    padding: 5px 0px 0px 5px;
+    padding: 0px 15px 15px 15px;
     font-size: 14px;
-}
-
-.Resume_main .Resume_left .Contents .Contents_Social {
-    margin-bottom: 30px;
 }
 
 .Resume_main .Resume_left .Contents .Content_Info ul .small_contents{
     display: flex;
-   align-items: center;
-   line-height: 25px;
-
+   line-height: 20px;
+   align-items: baseline;
+   
 }
 
 .Resume_main .Resume_left .Contents .Content_Info ul .small_contents .icon {
-    padding-right: 5px;
-   
+    padding-right: 8px;
 }
 .Resume_main .Resume_left .Contents .Contents_Skills ul li{
     padding: 10px;
@@ -90,34 +87,38 @@ hr {
 .Resume_main .Resume_right .Profile_Name h1{
     font-size: 55px;
     padding-left: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 1px;
     color: rgb(41, 40, 40);
 }
 
 .Resume_main .Resume_right .Profile_Name p {
     font-size: 25px;
     padding-left: 20px;
-    color: rgb(85, 81, 81);
-    padding-bottom: 6px;
+    color: #623499;
+    padding-bottom: 11px;
 }
 
 .Resume_main .Resume_right .Right_Headline {
     font-size: 20px;
     font-weight: 600;
-    color:rgb(118, 10, 165)
+    color:rgb(111, 29, 150)
 }
 
 .Resume_main .Resume_right {
     width: 70%;
     display:grid;
-    background-color: rgb(201, 194, 194);
+    background-color:rgb(228, 228, 228);
 
 }
 
 .Resume_main .Resume_right .Right_Contents .Profile_Description, .Certification , .Education , .Certification , .Interests {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     margin-top: 30px;
     line-height: 20px;
+}
+
+.Resume_main .Resume_right .Right_Contents .Profile_Description {
+    line-height: 25px;
 }
 
 .Resume_main .Resume_right .Right_Contents .Certification ul li {
