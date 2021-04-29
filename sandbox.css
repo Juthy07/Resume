@@ -1,0 +1,10 @@
+@media print and (color){
+    .Resume_left ,.Resume_right {
+        -webkit-print-color-adjust: exact;
+    }
+
+    a {
+        font-size: 12px;
+        text-decoration: none;
+    }
+}
