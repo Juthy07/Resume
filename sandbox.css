@@ -7,4 +7,10 @@
         font-size: 12px;
         text-decoration: none;
     }
+    
+    
+    @page {
+        size: A4;
+        margin-bottom: 10px;
+    }
 }
